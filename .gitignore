@@ -1,0 +1,40 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python test and coverage cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Python package/build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
+
+# Evidently generated reports (optional)
+# Uncomment the next line if you do not want to commit reports
+# evidently_report.html
+
+# OS-generated files
+.DS_Store
+Thumbs.db
